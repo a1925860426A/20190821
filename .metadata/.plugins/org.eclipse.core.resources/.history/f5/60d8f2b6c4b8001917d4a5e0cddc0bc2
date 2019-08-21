@@ -1,0 +1,5 @@
+package yxj.dao;
+
+public class UserDao {
+
+}

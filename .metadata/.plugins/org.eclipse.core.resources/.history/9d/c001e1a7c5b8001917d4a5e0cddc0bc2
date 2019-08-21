@@ -1,0 +1,16 @@
+package yxj.test;
+
+import yxj.entity.Users;
+import yxj.service.UserService;
+
+public class Test {
+
+	UserService userService = new UserService();
+	
+	public void saveTest(){
+		Users user = new Users();
+		user.setUsername("sss");
+		user.setPassword("sss");
+		userService.save(user);
+	}
+}

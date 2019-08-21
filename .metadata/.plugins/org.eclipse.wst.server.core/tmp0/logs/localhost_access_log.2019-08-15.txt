@@ -1,0 +1,2 @@
+127.0.0.1 - - [15/Aug/2019:14:03:23 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [15/Aug/2019:14:03:24 +0800] "GET /Hibernate_06/WEB-INF/classes/yxj/test/Testing.java HTTP/1.1" 404 949

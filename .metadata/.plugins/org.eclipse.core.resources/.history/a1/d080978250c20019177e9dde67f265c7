@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+    <!-- 根节点的使用 -->
+	<hibernate-configuration>
+		<session-factory>
+			<!--数据库连接 -->
+			<property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+			<property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:ORCL</property>
+			<property name="hibernate.connection.username">ZHANGSAN</property>
+			<property name="hibernate.connection.password">123</property>
+			<!--显示SQL-->
+			<property name="hibernate.show_sql">true</property>
+			<!-- 格式化SQL -->
+			<property name="hibernate.format_sql">true</property>
+			<!-- 自动提交事物 -->
+			<property name="hibernate.autocommit">true</property>
+			<!-- 本地事务 -->
+			<property name="hibernate.current_session_context_class">thread</property>
+			<!-- 映射文件 -->
+			<mapping resource="yxj/entity/player.java"/>
+			<mapping resource="yxj/entity/Emp.java"/>
+			<mapping resource="yxj/entity/.java"/>
+		</session-factory>
+	</hibernate-configuration>
+

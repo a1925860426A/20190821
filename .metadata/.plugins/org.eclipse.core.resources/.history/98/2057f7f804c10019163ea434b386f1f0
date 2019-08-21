@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="yxj.entity.Emp" table="EMP">
+		<id name="empNo" column="EMPNO" type="java.lang.Integer">
+			<!-- 指定id自动增长方式 --><!-- assigned：不是依托数据库里的自动增长，而是你的程 序生成一个主键，然后赋值给这个对象 -->
+			<!-- <generator class="assigned"></generator> -->
+			<generator class="assigned"></generator>
+		</id>
+		<property name="empName" column="EMPNAME" type="java.lang.String"></property>
+		<property name="hireDate" column="HIREDATE" type="java.util.Date"></property>
+		<property name="job" column="JOB" type="java.lang.String"></property>
+		<property name="money" column="MONEY" type="java.lang.Integer"></property>
+	</class>
+</hibernate-mapping>
+    

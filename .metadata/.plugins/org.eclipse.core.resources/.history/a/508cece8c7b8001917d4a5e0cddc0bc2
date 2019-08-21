@@ -1,0 +1,28 @@
+package com.bdqn.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+import org.junit.Test;
+
+import com.bdqn.pojo.Users;
+import com.bdqn.service.UserService;
+
+public class TestDemo {
+
+	UserService userService = new UserService();
+
+	@Test
+	public void saveTest() {
+		Users user = new Users();
+		user.setUsername("sss");
+		user.setPassword("sss");
+		userService.save(user);
+	}
+
+	public void getTest() {
+		Users user = userService.get(1);
+		System.err.println(user.getUsername());
+	}
+}

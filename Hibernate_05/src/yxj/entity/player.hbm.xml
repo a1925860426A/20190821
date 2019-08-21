@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="yxj.entity.player" table="PLAYER">
+		<id name="ID" column="`ID`" type="java.lang.Integer">
+			<generator class="increment"></generator>
+		</id>
+		<property name="NAME" column="`NAME`" type="java.lang.String"></property>
+		<property name="SEX" column="`SEX`" type="java.lang.String"></property>
+		<property name="ADDRESS" column="`ADDRESS`" type="java.lang.String"></property>
+		<property name="HOBBIES" column="`HOBBIES`" type="java.lang.String"></property>
+	</class>
+</hibernate-mapping>

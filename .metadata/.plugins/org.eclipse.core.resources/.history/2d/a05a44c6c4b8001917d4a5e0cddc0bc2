@@ -1,0 +1,8 @@
+package yxj.service;
+
+import yxj.dao.UserDao;
+
+public class UserService {
+
+	UserDao userDao = new UserDao();
+}

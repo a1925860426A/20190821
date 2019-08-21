@@ -1,0 +1,23 @@
+package yxj.entity;
+
+public class Depe {
+
+	private int DEPTNO;
+	private String DNAME;
+
+	public int getDEPTNO() {
+		return DEPTNO;
+	}
+
+	public void setDEPTNO(int dEPTNO) {
+		DEPTNO = dEPTNO;
+	}
+
+	public String getDNAME() {
+		return DNAME;
+	}
+
+	public void setDNAME(String dNAME) {
+		DNAME = dNAME;
+	}
+}

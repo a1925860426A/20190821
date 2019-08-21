@@ -1,0 +1,11 @@
+package yxj.dao;
+
+import yxj.entity.Users;
+import yxj.util.HibernateUtil;
+
+public class UserDao {
+
+	public void save(Users user){
+		HibernateUtil.currentSession().beginTransaction();
+	}
+}

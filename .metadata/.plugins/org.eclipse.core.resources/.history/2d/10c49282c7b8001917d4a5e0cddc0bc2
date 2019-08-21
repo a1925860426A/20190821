@@ -1,0 +1,44 @@
+package com.bdqn.service;
+
+import java.io.Serializable;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Transaction;
+
+import com.bdqn.dao.UserDao;
+import com.bdqn.pojo.Users;
+import com.bdqn.util.HibernateUtil;
+
+public class UserService {
+	
+	UserDao userDao = new UserDao();
+	
+	public void save(Users user){
+		Transaction tx = null;
+		try {
+			tx = HibernateUtil.currentSession().beginTransaction();
+			userDao.save(user);
+			tx.commit();
+		} catch (HibernateException e) {
+			if(tx != null){
+				tx.rollback();
+			}
+		}
+	}
+	
+	public Users get(Serializable id) {
+		Transaction tx = null;
+		Users user = null;
+		try {
+			tx = HibernateUtil.currentSession().beginTransaction();
+			user = userDao.get(id);
+			System.err.println(user.getUsername());
+			tx.commit();
+		} catch (HibernateException e) {
+			if(tx !=null){
+				tx.rollback();
+			}
+		}
+		return user;
+	}
+}

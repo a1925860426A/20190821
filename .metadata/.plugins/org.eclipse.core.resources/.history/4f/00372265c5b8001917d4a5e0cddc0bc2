@@ -1,0 +1,6 @@
+package yxj.test;
+
+public class Test {
+
+	UserService userService = new UserService();
+}

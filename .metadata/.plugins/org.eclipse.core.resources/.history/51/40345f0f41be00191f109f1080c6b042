@@ -1,0 +1,13 @@
+package yxj.entity;
+
+import java.util.Date;
+
+public class EmpCondition {
+
+	private Date from;//起始时间
+	private Date to;//结束事件
+	private Date hireDate;
+	private String job;
+	private Integer money;
+
+}

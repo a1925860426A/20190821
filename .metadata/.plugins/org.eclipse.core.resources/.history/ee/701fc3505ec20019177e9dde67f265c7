@@ -1,0 +1,15 @@
+package yxj.test;
+
+public class TestDemo {
+
+	public void saveOrUpdateTest() {
+		Emp emp = new Emp();
+		emp.setEmpNo(7);
+		emp.setEmpName("∫√∆∏Ê√");
+		Dept dept = new Dept();
+		dept.setDeptNo(1);
+		emp.setDept(dept);
+		empService.saveOrUpdate(emp);
+	}
+
+}

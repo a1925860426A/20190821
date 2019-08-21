@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="yxj.entity.PLAYER"/>
+<fullyQualifiedTypeName name="org.hibernate.envers.RevisionTimestamp"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.Deprecated"/>
+<fullyQualifiedTypeName name="com.bdqn.util.HibernateUtil"/>
+<fullyQualifiedTypeName name="com.bdqn.dao.UserDao"/>
+<fullyQualifiedTypeName name="yxj.dao.UserDao"/>
+<fullyQualifiedTypeName name="org.hibernate.Hibernate"/>
+<fullyQualifiedTypeName name="yxj.util.HibernateUtil"/>
+<fullyQualifiedTypeName name="yxj.entity.Users"/>
+<fullyQualifiedTypeName name="yxj.service.UserService"/>
+<fullyQualifiedTypeName name="org.junit.experimental.theories.suppliers.TestedOn"/>
+<fullyQualifiedTypeName name="javax.print.DocFlavor.READER"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+<fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="org.hibernate.HibernateException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="yxj.dao.empDap"/>
+<fullyQualifiedTypeName name="yxj.dao.empDao"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="yxj.service.empService"/>
+<fullyQualifiedTypeName name="java.lang.ExceptionInInitializerError"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+<fullyQualifiedTypeName name="yxj.dao.HibernateUtil"/>
+<fullyQualifiedTypeName name="yxj.dao.EmpDao"/>
+<fullyQualifiedTypeName name="yxj.entity.Emp"/>
+<fullyQualifiedTypeName name="yxj.entity.Dept"/>
+<fullyQualifiedTypeName name="yxj.service.EmpService"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+</qualifiedTypeNameHistroy>

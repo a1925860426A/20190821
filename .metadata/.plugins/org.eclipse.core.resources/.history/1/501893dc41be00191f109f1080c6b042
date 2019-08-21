@@ -1,0 +1,10 @@
+package yxj.dao;
+
+import java.util.Date;
+
+public class Tools {
+
+	public static Date strToDate(String strDate,String pattern){
+		
+	}
+}

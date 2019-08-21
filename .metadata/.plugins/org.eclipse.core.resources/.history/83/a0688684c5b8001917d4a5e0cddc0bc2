@@ -1,0 +1,12 @@
+package yxj.test;
+
+import yxj.service.UserService;
+
+public class Test {
+
+	UserService userService = new UserService();
+	
+	public void saveTest(){
+		
+	}
+}

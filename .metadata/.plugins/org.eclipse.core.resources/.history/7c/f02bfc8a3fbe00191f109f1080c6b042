@@ -1,0 +1,11 @@
+package yxj.entity;
+
+public class Emp {
+
+	private Integer empNo;
+	private String empName;
+	private Date hireDate;
+	private String job;
+	private Integer money;
+
+}

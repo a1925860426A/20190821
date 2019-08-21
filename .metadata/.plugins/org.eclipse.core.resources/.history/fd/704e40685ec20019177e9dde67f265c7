@@ -1,0 +1,21 @@
+package yxj.test;
+
+import yxj.entity.Dept;
+import yxj.entity.Emp;
+import yxj.service.EmpService;
+
+public class TestDemo {
+
+	EmpService empService = new EmpService();
+
+	public void saveOrUpdateTest() {
+		Emp emp = new Emp();
+		emp.setEmpNo(7);
+		emp.setEmpName("∫√∆∏Ê√");
+		Dept dept = new Dept();
+		dept.setDeptNo(1);
+		emp.setDept(dept);
+		empService.saveOrUpdate(emp);
+	}
+
+}

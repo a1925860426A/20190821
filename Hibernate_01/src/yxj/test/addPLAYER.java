@@ -1,0 +1,33 @@
+package yxj.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+import org.junit.Test;
+
+import yxj.entity.PLAYER;
+
+public class addPLAYER {
+
+	@Test
+	public void addPLAYER() {
+		// 1.加载hibernate主配置文件hibernate.cfg.xml
+		Configuration cf = new Configuration().configure();
+		// 2.通过主配置文件开启一个会话工厂
+		SessionFactory sf = cf.buildSessionFactory();
+		// 3.获取会话
+		Session session = sf.openSession();
+		// 4.开启事务
+		Transaction Tc = session.beginTransaction();
+		PLAYER player = new PLAYER();
+		player.setNAME("刘宇蕾");
+		player.setSEX("女");
+		player.setAGE("19");
+		player.setADDRESS("湖南长沙");
+		session.save(player);
+		Tc.commit();
+		session.close();
+		sf.close();
+	}
+}

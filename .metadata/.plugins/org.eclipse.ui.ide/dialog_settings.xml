@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\yxj\Desktop\SSH\第一本书第5章\完整代码\Day02_Hibernate_HQL"/>
+			<item value="C:\Users\yxj\Desktop\SSH\第一本书第四章\hibernate项目\Day01_Hibernate_bak5"/>
+			<item value="C:\Users\yxj\Desktop\SSH\第一本书第四章\hibernate项目\Day01_Hibernate_bak3"/>
+			<item value="E:\Shared files\Day01_Hibernate_bak2"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

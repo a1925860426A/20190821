@@ -1,0 +1,27 @@
+package yxj.util;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class HibernateUtil {
+	//加载hibernate主配置文件hibernate.cfg.xml
+	private static Configuration conf;
+	//创建一个会话工厂
+	private final static SessionFactory sf;
+	
+	static {
+		try {
+			//加载hibernate主配置文件hibernate.cfg.xml
+			conf = new Configuration().configure();
+			sf = conf.buildSessionFactory();
+		} catch (HibernateException e) {
+			throw new ExceptionInInitializerError();
+		}
+	}
+
+	public static Session currentSession() {
+		return sf.getCurrentSession();
+	}
+}

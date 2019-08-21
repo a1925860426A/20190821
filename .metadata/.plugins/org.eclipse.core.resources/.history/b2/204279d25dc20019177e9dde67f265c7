@@ -1,0 +1,9 @@
+package yxj.dao;
+
+public class EmpDao {
+
+	public void saveOrUpdate(Emp emp) {
+		HibernateUtil.currentSession().saveOrUpdate(emp);
+	}
+
+}

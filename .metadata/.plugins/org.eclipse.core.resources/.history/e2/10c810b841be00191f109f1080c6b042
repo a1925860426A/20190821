@@ -1,0 +1,8 @@
+package yxj.dao;
+
+public class Tools {
+
+	public static Date strToDate(){
+		
+	}
+}

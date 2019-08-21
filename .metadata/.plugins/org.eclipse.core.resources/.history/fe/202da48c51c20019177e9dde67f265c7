@@ -1,0 +1,8 @@
+package yxj.entity;
+
+public class Dept {
+
+	private Integer deptNo;
+	private String dName;
+
+}

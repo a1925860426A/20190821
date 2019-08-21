@@ -1,0 +1,5 @@
+package yxj.util;
+
+public class HibernateUtil {
+
+}
